@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.3.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="116" name="centerDrill" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<board>
+<plain>
+<wire x1="64.73" y1="31.75" x2="64.73" y2="1.27" width="0" layer="20"/>
+<wire x1="64.73" y1="1.27" x2="0.04" y2="1.27" width="0" layer="20"/>
+<wire x1="0.04" y1="1.27" x2="0.04" y2="31.75" width="0" layer="20"/>
+<wire x1="62.825" y1="13.335" x2="62.825" y2="14.605" width="0.254" layer="21"/>
+<wire x1="1.945" y1="14.685" x2="1.945" y2="13.415" width="0.254" layer="21"/>
+<wire x1="0.04" y1="31.75" x2="64.73" y2="31.75" width="0" layer="20"/>
+<wire x1="2.58" y1="18.97" x2="1.945" y2="18.97" width="0.254" layer="21"/>
+<wire x1="1.31" y1="18.97" x2="1.945" y2="18.97" width="0.254" layer="21"/>
+<wire x1="1.945" y1="18.97" x2="1.945" y2="19.605" width="0.254" layer="21"/>
+<wire x1="1.945" y1="18.97" x2="1.945" y2="18.335" width="0.254" layer="21"/>
+<wire x1="63.46" y1="19.05" x2="62.825" y2="19.05" width="0.254" layer="21"/>
+<wire x1="62.19" y1="19.05" x2="62.825" y2="19.05" width="0.254" layer="21"/>
+<wire x1="62.825" y1="19.05" x2="62.825" y2="19.685" width="0.254" layer="21"/>
+<wire x1="62.825" y1="19.05" x2="62.825" y2="18.415" width="0.254" layer="21"/>
+<text x="10.045" y="20.76" size="1.778" layer="25" font="vector" rot="SR270" align="center">IN</text>
+<text x="55.475" y="11.26" size="1.778" layer="25" font="vector" rot="SR90" align="center">OUT</text>
+<circle x="3.85" y="5.08" radius="0.85" width="1.4" layer="116"/>
+<circle x="3.85" y="27.94" radius="0.85" width="1.4" layer="116"/>
+<circle x="60.92" y="27.94" radius="0.85" width="1.4" layer="116"/>
+<circle x="60.92" y="5.08" radius="0.85" width="1.4" layer="116"/>
+<circle x="18.415" y="8.89" radius="0.475" width="0.65" layer="116"/>
+<circle x="18.415" y="13.97" radius="0.475" width="0.65" layer="116"/>
+<circle x="18.415" y="19.05" radius="0.475" width="0.65" layer="116"/>
+<circle x="18.415" y="24.13" radius="0.475" width="0.65" layer="116"/>
+<circle x="46.355" y="8.89" radius="0.475" width="0.65" layer="116"/>
+<circle x="46.355" y="13.97" radius="0.475" width="0.65" layer="116"/>
+<circle x="46.355" y="19.05" radius="0.475" width="0.65" layer="116"/>
+<circle x="46.355" y="24.13" radius="0.475" width="0.65" layer="116"/>
+<circle x="43.815" y="16.51" radius="0.475" width="0.65" layer="116"/>
+<circle x="7" y="17.77" radius="0.35" width="0.4" layer="116"/>
+<circle x="7" y="15.23" radius="0.35" width="0.4" layer="116"/>
+<circle x="57.5" y="17.77" radius="0.35" width="0.4" layer="116"/>
+<circle x="57.5" y="15.23" radius="0.35" width="0.4" layer="116"/>
+</plain>
+<libraries>
+<library name="lundahl">
+<description>&lt;b&gt;Lundahl Transformers - v1.04, 11/14/2004&lt;/b&gt;&lt;p&gt;
+This library containts various audio transformers and components by Lars Lundhal of Sweden. All components have been created with great care, however, double check any parts used against the data sheet prior to use.&lt;br&gt;&lt;br&gt;NOTE: All parts use .0125" grid spacing&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+&lt;TABLE width="75%" border=1&gt;
+  &lt;TBODY&gt;
+    &lt;TR bgcolor="#33CCFF"&gt; 
+      &lt;TD height=43 colSpan=4&gt; &lt;DIV align=left&gt; 
+          &lt;P&gt;&lt;strong&gt;&lt;FONT size=3&gt;GENERAL PURPOSE TRANSFORMERS (FOR APPROX. 600 
+            OHMS IMPEDANCE LEVEL)&lt;/FONT&gt;&lt;/strong&gt;&lt;/P&gt;
+        &lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="14%"&gt; &lt;DIV align=center&gt;&lt;strong&gt;TYPE&lt;/strong&gt;&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="12%"&gt; &lt;DIV align=center&gt;&lt;strong&gt;TURNS RATIO&lt;/strong&gt;&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="18%"&gt; &lt;DIV align=center&gt;&lt;strong&gt;LEVEL (50hZ)&lt;/strong&gt;&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="56%"&gt; &lt;DIV align=left&gt;&lt;strong&gt;USAGE&lt;/strong&gt;&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="14%"&gt; &lt;DIV align=center&gt;LL1527&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="22%"&gt; &lt;DIV align=center&gt;1+1:1+1&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="16%"&gt; &lt;DIV align=center&gt;+16dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="48%"&gt; &lt;DIV align=left&gt;Split 1: 1 direct + 1 isolated. Ground 
+          isolation&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="14%"&gt; &lt;DIV align=center&gt;LL1527A&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="22%"&gt; &lt;DIV align=center&gt;1+1:1+1&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="16%"&gt; &lt;DIV align=center&gt;+16dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="48%"&gt; &lt;DIV align=left&gt;Split 1: 1 direct + 1 isolated. Ground 
+          isolation&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="14%"&gt; &lt;DIV align=center&gt;LL1527XL&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="22%"&gt; &lt;DIV align=center&gt;1+1:1+1&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="16%"&gt; &lt;DIV align=center&gt;+19dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="48%"&gt; &lt;DIV align=left&gt;Split 1: 1 direct + 1 isolated. Ground 
+          isolation&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="14%"&gt; &lt;DIV align=center&gt;LL1532&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="22%"&gt; &lt;DIV align=center&gt;1+1:2&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="16%"&gt; &lt;DIV align=center&gt;+10dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="48%"&gt; &lt;DIV align=left&gt;Mic input. Ground isolation.&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="14%"&gt; &lt;DIV align=center&gt;LL1570&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="22%"&gt; &lt;DIV align=center&gt;1+1:1+1&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="16%"&gt; &lt;DIV align=center&gt;+16dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="48%"&gt; &lt;DIV align=left&gt;Split 1: 1 direct + 1 isolated. Ground 
+          isolation&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="14%"&gt; &lt;DIV align=center&gt;LL1570XL&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="22%"&gt; &lt;DIV align=center&gt;1+1:1+1&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="16%"&gt; &lt;DIV align=center&gt;+19dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="48%"&gt; &lt;DIV align=left&gt;Split 1: 1 direct + 1 isolated. Ground 
+          isolation&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="14%"&gt; &lt;DIV align=center&gt;LL1581XL&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="22%"&gt; &lt;DIV align=center&gt;1:1+1&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="16%"&gt; &lt;DIV align=center&gt;+13dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="48%"&gt; &lt;DIV align=left&gt;Splitting 1:1 direct + 2 isolated&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="14%"&gt; &lt;DIV align=center&gt;LL1583&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="22%"&gt; &lt;DIV align=center&gt;1:1+1&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="16%"&gt; &lt;DIV align=center&gt;+ 8dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="48%"&gt; &lt;DIV align=left&gt;Splitting 1:1 direct + 2 isolated. Small 
+          size.&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="14%"&gt; &lt;DIV align=center&gt;LL7902&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="22%"&gt; &lt;DIV align=center&gt;1+1+1+1:1+1+1+1&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="16%"&gt; &lt;DIV align=center&gt;+28dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="48%"&gt; &lt;DIV align=left&gt;For demanding applications&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="14%"&gt; &lt;DIV align=center&gt;LL7904&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="22%"&gt; &lt;DIV align=center&gt;1:1+1&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="16%"&gt; &lt;DIV align=center&gt;+22dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="48%"&gt; &lt;DIV align=left&gt;High level splitting 1:1 direct + 2 isolated&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+  &lt;/TBODY&gt;
+&lt;/TABLE&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;TABLE width="76%" height=288 border=1&gt;
+  &lt;TBODY&gt;
+    &lt;TR bgcolor="#66CCFF"&gt; 
+      &lt;TD colSpan=4&gt; &lt;DIV align=left&gt;&lt;strong&gt;&lt;FONT size=3&gt;LINE INPUT TRANSFORMERS&lt;/FONT&gt;&lt;/strong&gt;&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="14%"&gt; &lt;DIV align=center&gt;&lt;strong&gt;TYPE&lt;/strong&gt;&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="12%"&gt; &lt;DIV align=center&gt;&lt;strong&gt;TURNS RATIO&lt;/strong&gt;&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="18%"&gt; &lt;DIV align=center&gt;&lt;strong&gt;LEVEL (50hZ)&lt;/strong&gt;&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="56%"&gt; &lt;DIV align=left&gt;&lt;strong&gt;USAGE&lt;/strong&gt;&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="12%"&gt; &lt;DIV align=center&gt;LL1531&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="24%"&gt; &lt;DIV align=center&gt;1+1:1+1&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="10%"&gt; &lt;DIV align=center&gt;+20dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="54%"&gt; &lt;DIV align=left&gt;Line input. Small size&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="12%"&gt; &lt;DIV align=center&gt;LL1540&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="24%"&gt; &lt;DIV align=center&gt;1+1:1+1&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="10%"&gt; &lt;DIV align=center&gt;+30dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="54%"&gt; &lt;DIV align=left&gt;Line input.&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="12%"&gt; &lt;DIV align=center&gt;LL1545A&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="24%"&gt; &lt;DIV align=center&gt;1+1+1+1:2+2&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="10%"&gt; &lt;DIV align=center&gt;+24dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="54%"&gt; &lt;DIV align=left&gt;Wide bandwidth line input&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="12%"&gt; &lt;DIV align=center&gt;LL1544A&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="24%"&gt; &lt;DIV align=center&gt;1+1+1+1:2+2&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="10%"&gt; &lt;DIV align=center&gt;+20dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="54%"&gt; &lt;DIV align=left&gt;Amorphous core&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="12%"&gt; &lt;DIV align=center&gt;LL6404&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="24%"&gt; &lt;DIV align=center&gt;1:1&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="10%"&gt; &lt;DIV align=center&gt;N/A (High!)&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="54%"&gt; &lt;DIV align=left&gt;Zero Field input&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="12%"&gt; &lt;DIV align=center&gt;LL7101&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="24%"&gt; &lt;DIV align=center&gt;1+1:1,37&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="10%"&gt; &lt;DIV align=center&gt;N/A (High!)&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="54%"&gt; &lt;DIV align=left&gt;Zero Field input&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="12%"&gt; &lt;DIV align=center&gt;LL7901&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="24%"&gt; &lt;DIV align=center&gt;1+1+1+1:1+1+1+1&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="10%"&gt; &lt;DIV align=center&gt;+34dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="54%"&gt; &lt;DIV align=left&gt;For very high level applications&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+  &lt;/TBODY&gt;
+&lt;/TABLE&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;TABLE height=466 width="76%" border=1&gt;
+  &lt;TBODY&gt;
+    &lt;TR bgcolor="#33CCFF"&gt; 
+      &lt;TD colSpan=4&gt; &lt;DIV align=left&gt;&lt;strong&gt;&lt;FONT size=3&gt;MICROPHONE INPUT TRANSFORMERS&lt;/FONT&gt;&lt;/strong&gt;&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="14%"&gt; &lt;DIV align=center&gt;&lt;strong&gt;TYPE&lt;/strong&gt;&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="12%"&gt; &lt;DIV align=center&gt;&lt;strong&gt;TURNS RATIO&lt;/strong&gt;&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="18%"&gt; &lt;DIV align=center&gt;&lt;strong&gt;LEVEL (50hZ)&lt;/strong&gt;&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="56%"&gt; &lt;DIV align=left&gt;&lt;strong&gt;USAGE&lt;/strong&gt;&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="13%"&gt; &lt;DIV align=center&gt;LL1528&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="22%"&gt; &lt;DIV align=center&gt;1+1:2,5+2,5&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="15%"&gt; &lt;DIV align=center&gt;+16dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="50%"&gt; &lt;DIV align=left&gt;200 Ohm : 5 kOhm&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="13%"&gt; &lt;DIV align=center&gt;LL1530&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="22%"&gt; &lt;DIV align=center&gt;1+1:3,5+3,5&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="15%"&gt; &lt;DIV align=center&gt;+16dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="50%"&gt; &lt;DIV align=left&gt;DI 10 k Ohm: 200 Ohm.&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="13%"&gt; &lt;DIV align=center&gt;LL1538&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="22%"&gt; &lt;DIV align=center&gt;1+1:5&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="15%"&gt; &lt;DIV align=center&gt;+16dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="50%"&gt; &lt;DIV align=left&gt;200 Ohm: 5 kOhm*&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="13%"&gt; &lt;DIV align=center&gt;LL1538XL&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="22%"&gt; &lt;DIV align=center&gt;1+1:5&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="15%"&gt; &lt;DIV align=center&gt;+19dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="50%"&gt; &lt;DIV align=left&gt;High level 200 Ohm : 5kOhm*&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="13%"&gt; &lt;DIV align=center&gt;LL1550&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="22%"&gt; &lt;DIV align=center&gt;1+1+1+1:4+4&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="15%"&gt; &lt;DIV align=center&gt;+12dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="50%"&gt; &lt;DIV align=left&gt;200 Ohm : 1 kOhm --200 Ohm:10 kOhm. Amorphous 
+          core&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="13%"&gt; &lt;DIV align=center&gt;LL1571&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="22%"&gt; &lt;DIV align=center&gt;1+1:1,75+1,75&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="15%"&gt; &lt;DIV align=center&gt;+16dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="50%"&gt; &lt;DIV align=left&gt;200 Ohm : 2,5 Ohm&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="13%"&gt; &lt;DIV align=center&gt;LL1576&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="22%"&gt; &lt;DIV align=center&gt;1+1:7&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="15%"&gt; &lt;DIV align=center&gt;+16dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="50%"&gt; &lt;DIV align=left&gt;200 Ohm : 10 kOhm*&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="13%"&gt; &lt;DIV align=center&gt;LL1577&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="22%"&gt; &lt;DIV align=center&gt;1+1:14&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="15%"&gt; &lt;DIV align=center&gt;+10dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="50%"&gt; &lt;DIV align=left&gt;50 Ohm : 10 kOhm*&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="13%"&gt; &lt;DIV align=center&gt;LL1578&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="22%"&gt; &lt;DIV align=center&gt;1+1:10&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="15%"&gt; &lt;DIV align=center&gt;+10dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="50%"&gt; &lt;DIV align=left&gt;50 Ohm : 5 kOhm*&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="13%"&gt; &lt;DIV align=center&gt;LL1578XL&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="22%"&gt; &lt;DIV align=center&gt;1+1:10&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="15%"&gt; &lt;DIV align=center&gt;+13dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="50%"&gt; &lt;DIV align=left&gt;High level 50 Ohm : 5 kOhm*&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="13%"&gt; &lt;DIV align=center&gt;LL1636&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="22%"&gt; &lt;DIV align=center&gt;1+1+1+1:10+10&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="15%"&gt; &lt;DIV align=center&gt;- 2dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="50%"&gt; &lt;DIV align=left&gt;High turn´s ratio input. Amorphous core&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="13%"&gt; &lt;DIV align=center&gt;LL7903&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="22%"&gt; &lt;DIV align=center&gt;1+1+1+1:2+2+2+2&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="15%"&gt; &lt;DIV align=center&gt;+28dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="50%"&gt; &lt;DIV align=left&gt;High level mic/line input.&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="13%"&gt; &lt;DIV align=center&gt;LL9206&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="22%"&gt; &lt;DIV align=center&gt;1+1+1+1:10+10&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="15%"&gt; &lt;DIV align=center&gt;- 2dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="50%"&gt; &lt;DIV align=left&gt;High turn´s ratio input. Amorphous core. 
+          For moving coil pickup.&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD colSpan=4&gt; &lt;DIV align=center&gt;Transformers marked with * have compatible 
+          pinout&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+  &lt;/TBODY&gt;
+&lt;/TABLE&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;TABLE height=316 width="76%" border=1&gt;
+  &lt;TBODY&gt;
+    &lt;TR bgcolor="#33CCFF"&gt; 
+      &lt;TD height=19 colSpan=4&gt; &lt;DIV align=left&gt;&lt;strong&gt;&lt;FONT size=3&gt;LINE OUTPUT 
+          TRANSFORMERS&lt;/FONT&gt;&lt;/strong&gt;&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="14%"&gt; &lt;DIV align=center&gt;&lt;strong&gt;TYPE&lt;/strong&gt;&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="12%"&gt; &lt;DIV align=center&gt;&lt;strong&gt;TURNS RATIO&lt;/strong&gt;&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="18%"&gt; &lt;DIV align=center&gt;&lt;strong&gt;LEVEL (50hZ)&lt;/strong&gt;&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="56%"&gt; &lt;DIV align=left&gt;&lt;strong&gt;USAGE&lt;/strong&gt;&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="10%"&gt; &lt;DIV align=center&gt;LL1517&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="16%"&gt; &lt;DIV align=center&gt;1+1,ct:1+1&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="20%"&gt; &lt;DIV align=center&gt;+28dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="54%"&gt; &lt;DIV align=left&gt;With Faraday shields. General purpose.&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="10%"&gt; &lt;DIV align=center&gt;LL1524&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="16%"&gt; &lt;DIV align=center&gt;1+1:1+1&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="20%"&gt; &lt;DIV align=center&gt;+28dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="54%"&gt; &lt;DIV align=left&gt;Balanced drive. Extra wide freq. range&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="10%"&gt; &lt;DIV align=center&gt;LL1539&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="16%"&gt; &lt;DIV align=center&gt;2:1+1&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="20%"&gt; &lt;DIV align=center&gt;+31dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="54%"&gt; &lt;DIV align=left&gt;Balanced drive&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="10%"&gt; &lt;DIV align=center&gt;LL1555&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="16%"&gt; &lt;DIV align=center&gt;1+1+1+1:2+2&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="20%"&gt; &lt;DIV align=center&gt;+27dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="54%"&gt; &lt;DIV align=left&gt;Balanced drive&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="10%"&gt; &lt;DIV align=center&gt;LL1560&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="16%"&gt; &lt;DIV align=center&gt;2+2:1+1+1+1&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="20%"&gt; &lt;DIV align=center&gt;+26dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="54%"&gt; &lt;DIV align=left&gt;Balanced drive. 4 output active split.&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="10%"&gt; &lt;DIV align=center&gt;LL1582&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="16%"&gt; &lt;DIV align=center&gt;1+1:1+1&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="20%"&gt; &lt;DIV align=center&gt;+30dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="54%"&gt; &lt;DIV align=left&gt;With Faraday shields. General purpose. 
+          Dimensions optimized for Euroboard&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="10%"&gt; &lt;DIV align=center&gt;LL2811&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="16%"&gt; &lt;DIV align=center&gt;1+1:1+1&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="20%"&gt; &lt;DIV align=center&gt;+30dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="54%"&gt; &lt;DIV align=left&gt;Balanced drive. Dimensions optimized for 
+          Euroboard&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="10%"&gt; &lt;DIV align=center&gt;LL5402&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="16%"&gt; &lt;DIV align=center&gt;2:1+1&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="20%"&gt; &lt;DIV align=center&gt;+22dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="54%"&gt; &lt;DIV align=left&gt;Unbalanced drive&lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+    &lt;TR&gt; 
+      &lt;TD width="10%" height=13&gt; &lt;DIV align=center&gt;LL7401&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="16%" height=13&gt; &lt;DIV align=center&gt;1+1:1+1&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="20%" height=13&gt; &lt;DIV align=center&gt;+24dBU&lt;/DIV&gt;&lt;/TD&gt;
+      &lt;TD width="54%" height=13&gt; &lt;DIV align=left&gt;Balanced drive. Low profile. 
+          Extra wide freq. range. &lt;/DIV&gt;&lt;/TD&gt;
+    &lt;/TR&gt;
+  &lt;/TBODY&gt;
+&lt;/TABLE&gt;
+&lt;br&gt;
+&lt;u&gt;DISCLAIMER:&lt;/u&gt; The author does not warrant that this library is free of error or that it will meet your specific requirements. By using this library the user assumes all risk and responsibility.&lt;/b&gt;
+&lt;i&gt;&lt;h4&gt;Copyright (C) 2004, RTZ Professional Audio&lt;br&gt;created by Bob Starr (rtzaudio@mindspring.com)&lt;/i&gt;</description>
+<packages>
+<package name="LL1540">
+<description>LL1540</description>
+<wire x1="-18.415" y1="12.065" x2="-18.415" y2="-12.065" width="0.1778" layer="21"/>
+<wire x1="-18.415" y1="-12.065" x2="19.685" y2="-12.065" width="0.1778" layer="21"/>
+<wire x1="19.685" y1="-12.065" x2="19.685" y2="12.065" width="0.1778" layer="21"/>
+<wire x1="19.685" y1="12.065" x2="-18.415" y2="12.065" width="0.1778" layer="21"/>
+<pad name="4" x="-13.335" y="7.62" drill="1.5" diameter="2.54"/>
+<pad name="3" x="-13.335" y="2.54" drill="1.5" diameter="2.54"/>
+<pad name="2" x="-13.335" y="-2.54" drill="1.5" diameter="2.54"/>
+<pad name="1" x="-13.335" y="-7.62" drill="1.5" diameter="2.54"/>
+<pad name="6" x="14.605" y="-2.54" drill="1.5" diameter="2.54"/>
+<pad name="7" x="14.605" y="2.54" drill="1.5" diameter="2.54"/>
+<pad name="8" x="14.605" y="7.62" drill="1.5" diameter="2.54"/>
+<pad name="5" x="14.605" y="-7.62" drill="1.5" diameter="2.54"/>
+<pad name="E" x="12.065" y="0" drill="1.5" diameter="2.54"/>
+<text x="-18.415" y="12.7" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-4.445" y="-8.255" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-10.795" y="-8.255" size="1.27" layer="51" ratio="10">1</text>
+<text x="-10.795" y="6.985" size="1.27" layer="51" ratio="10">4</text>
+<text x="-10.795" y="-3.175" size="1.27" layer="51" ratio="10">2</text>
+<text x="-10.795" y="1.905" size="1.27" layer="51" ratio="10">3</text>
+<text x="10.795" y="-8.255" size="1.27" layer="51" ratio="10">5</text>
+<text x="12.065" y="-1.905" size="1.27" layer="51" ratio="10" rot="R180">6</text>
+<text x="12.065" y="3.175" size="1.27" layer="51" ratio="10" rot="R180">7</text>
+<text x="12.065" y="8.255" size="1.27" layer="51" ratio="10" rot="R180">8</text>
+<text x="10.16" y="0.635" size="1.27" layer="51" ratio="10" rot="R180">GND</text>
+</package>
+</packages>
+</library>
+<library name="holes">
+<description>&lt;b&gt;Mounting Holes and Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="3,0-PAD">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 3.0 mm, round</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.556" width="1.016" layer="39"/>
+<circle x="0" y="0" radius="3.556" width="1.016" layer="40"/>
+<circle x="0" y="0" radius="3.556" width="1.016" layer="43"/>
+<circle x="0" y="0" radius="1.6" width="0.2032" layer="21"/>
+<pad name="B3,0" x="0" y="0" drill="3" diameter="3.81"/>
+<text x="-1.27" y="-3.81" size="1.27" layer="48">3,0</text>
+</package>
+</packages>
+</library>
+<library name="con-molex">
+<description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="22-23-2021">
+<description>.100" (2.54mm) Center Headers - 2 Pin</description>
+<wire x1="-2.54" y1="3.175" x2="2.54" y2="3.175" width="0.254" layer="21"/>
+<wire x1="2.54" y1="3.175" x2="2.54" y2="1.27" width="0.254" layer="21"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="2.54" y1="-3.175" x2="-2.54" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="-3.175" x2="-2.54" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="3.175" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="1" shape="long" rot="R90"/>
+<text x="-2.54" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<designrules name="oshpark-2layer">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;Laen's PCB Order Design Rules&lt;/b&gt;
+&lt;p&gt;
+Please make sure your boards conform to these design rules.</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm"/>
+<param name="mtIsolate" value="1.5011mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
+<param name="mdViaViaSameLayer" value="8mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="15mil"/>
+<param name="mdDrill" value="6mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="6mil"/>
+<param name="msDrill" value="13mil"/>
+<param name="msMicroVia" value="13mil"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="7mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="7mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="7mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="7mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="7mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="2.5mil"/>
+<param name="mlMaxStopFrame" value="2.5mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkGrid" value="0"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="T1" library="lundahl" package="LL1540" value="LL1540" x="31.75" y="16.51" smashed="yes">
+<attribute name="VALUE" x="31.75" y="16.51" size="1.778" layer="27" ratio="10" align="center"/>
+</element>
+<element name="H1" library="holes" package="3,0-PAD" value="MOUNT-PAD-ROUND3.0" x="3.85" y="5.08"/>
+<element name="H2" library="holes" package="3,0-PAD" value="MOUNT-PAD-ROUND3.0" x="3.85" y="27.94"/>
+<element name="H3" library="holes" package="3,0-PAD" value="MOUNT-PAD-ROUND3.0" x="60.92" y="27.94"/>
+<element name="H4" library="holes" package="3,0-PAD" value="MOUNT-PAD-ROUND3.0" x="60.92" y="5.08"/>
+<element name="X1" library="con-molex" package="22-23-2021" value="22-23-2021" x="7" y="16.5" smashed="yes" rot="R270">
+<attribute name="OC_NEWARK" value="25C3832" x="7" y="16.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1462926" x="7" y="16.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="22-23-2021" x="7" y="16.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="MOLEX" x="7" y="16.5" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="X2" library="con-molex" package="22-23-2021" value="22-23-2021" x="57.5" y="16.5" smashed="yes" rot="R270">
+<attribute name="OC_NEWARK" value="25C3832" x="57.5" y="16.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1462926" x="57.5" y="16.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="22-23-2021" x="57.5" y="16.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="MOLEX" x="57.5" y="16.5" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+</elements>
+<signals>
+<signal name="N$1">
+<contactref element="T1" pad="2"/>
+<contactref element="T1" pad="4"/>
+<wire x1="18.415" y1="24.13" x2="20.32" y2="24.13" width="1.27" layer="16"/>
+<wire x1="20.32" y1="24.13" x2="22.86" y2="21.59" width="1.27" layer="16" curve="-90"/>
+<wire x1="22.86" y1="21.59" x2="22.86" y2="16.51" width="1.27" layer="16"/>
+<wire x1="22.86" y1="16.51" x2="20.32" y2="13.97" width="1.27" layer="16" curve="-90"/>
+<wire x1="20.32" y1="13.97" x2="18.415" y2="13.97" width="1.27" layer="16"/>
+</signal>
+<signal name="N$2">
+<contactref element="T1" pad="1"/>
+<contactref element="X1" pad="2"/>
+<wire x1="7" y1="15.23" x2="7" y2="11.75" width="1.27" layer="16"/>
+<wire x1="7" y1="11.75" x2="9.75" y2="9" width="1.27" layer="16" curve="90"/>
+<wire x1="9.75" y1="9" x2="18.305" y2="9" width="1.27" layer="16"/>
+<wire x1="18.305" y1="9" x2="18.415" y2="8.89" width="1.27" layer="16" curve="-90"/>
+</signal>
+<signal name="N$3">
+<contactref element="T1" pad="3"/>
+<contactref element="X1" pad="1"/>
+<wire x1="18.415" y1="19.05" x2="17.135" y2="17.77" width="1.27" layer="16" curve="-90"/>
+<wire x1="7" y1="17.77" x2="17.135" y2="17.77" width="1.27" layer="16"/>
+</signal>
+<signal name="GND" airwireshidden="yes">
+<contactref element="H4" pad="B3,0"/>
+<contactref element="H1" pad="B3,0"/>
+<contactref element="H2" pad="B3,0"/>
+<contactref element="H3" pad="B3,0"/>
+<contactref element="T1" pad="E"/>
+<polygon width="0.254" layer="1" isolate="0.6096">
+<vertex x="0.04" y="31.75"/>
+<vertex x="64.73" y="31.75"/>
+<vertex x="64.73" y="1.27"/>
+<vertex x="0.04" y="1.27"/>
+</polygon>
+<polygon width="0.4064" layer="16" isolate="0.4064">
+<vertex x="0" y="31.75"/>
+<vertex x="64.75" y="31.75"/>
+<vertex x="64.75" y="1.25"/>
+<vertex x="0" y="1.25"/>
+</polygon>
+</signal>
+<signal name="N$4">
+<contactref element="T1" pad="5"/>
+<contactref element="T1" pad="8"/>
+<wire x1="40.005" y1="21.59" x2="42.545" y2="24.13" width="1.27" layer="16" curve="-90"/>
+<wire x1="42.545" y1="24.13" x2="46.355" y2="24.13" width="1.27" layer="16"/>
+<wire x1="46.355" y1="8.89" x2="42.545" y2="8.89" width="1.27" layer="16"/>
+<wire x1="42.545" y1="8.89" x2="40.005" y2="11.43" width="1.27" layer="16" curve="-90"/>
+<wire x1="40.005" y1="11.43" x2="40.005" y2="21.59" width="1.27" layer="16"/>
+<contactref element="X2" pad="1"/>
+<wire x1="46.355" y1="24.13" x2="51.64" y2="24.13" width="1.27" layer="16"/>
+<wire x1="51.64" y1="24.13" x2="55.12" y2="24.13" width="1.27" layer="16"/>
+<wire x1="55.12" y1="24.13" x2="57.5" y2="21.75" width="1.27" layer="16" curve="-90"/>
+<wire x1="57.5" y1="21.75" x2="57.5" y2="17.77" width="1.27" layer="16"/>
+</signal>
+<signal name="N$5">
+<contactref element="T1" pad="6"/>
+<contactref element="T1" pad="7"/>
+<wire x1="46.355" y1="19.05" x2="46.355" y2="13.97" width="1.27" layer="16"/>
+<contactref element="X2" pad="2"/>
+<wire x1="46.355" y1="13.97" x2="56.24" y2="13.97" width="1.27" layer="16"/>
+<wire x1="56.24" y1="13.97" x2="57.5" y2="15.23" width="1.27" layer="16" curve="90"/>
+</signal>
+</signals>
+</board>
+</drawing>
+</eagle>
